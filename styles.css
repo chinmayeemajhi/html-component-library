@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -95,6 +96,7 @@ hr {
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-grey);
+    text-align: center;
 }
 
 .hero .hero-heading .hero-inverted {
@@ -127,6 +129,6 @@ hr {
     color:white;
 }
 
-.footer .ul{
+.footer ul{
 padding-inline-start: 0px;
 }
