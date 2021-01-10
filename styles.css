@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --primary-color: #818CF8;
+    /* --primary-color: #7C3AED; */
+    --primary-color: #059669;
     --dark-grey: #6B7280;
     --off-white: #E5E7EB;
 }
@@ -124,6 +125,10 @@ hr {
     border-top-right-radius: 1rem;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    /* font-size: large;    */
+}
 
 .footer .link{
     color:white;
