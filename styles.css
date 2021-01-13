@@ -64,6 +64,11 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
+.link-secondary-non-border{
+    color: var(--primary-color);
+    
+}
+
 /* lists */
 
 .list-non-bullet {
@@ -102,12 +107,18 @@ hr {
 /* header */
 
 .hero {
-    padding: 2rem;
+    padding: 1rem;
     padding-top: : 5rem;
 }
 
 .hero .hero-image {
     max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .blog-image {
+    max-width: 600px;
     display: block;
     margin: auto;
 }
@@ -141,6 +152,7 @@ hr {
     text-align: center;
     color:white;
     border-top-right-radius: 1rem;
+    margin-top: 5rem;
 }
 
 .footer .footer-header{
@@ -155,3 +167,8 @@ hr {
 .footer ul{
 padding-inline-start: 0px;
 }
+
+/* p{
+    margin-block-start: 0rem;
+
+} */
