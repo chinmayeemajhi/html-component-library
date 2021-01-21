@@ -50,7 +50,10 @@ hr {
     max-width: 600px;
     margin: auto;
 }
-
+p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
 /* links */
 .link {
     text-decoration: none;
@@ -123,9 +126,9 @@ hr {
 }
 
 .hero .blog-image {
-    max-width: 600px;
+    max-width: 400px;
     display: block;
-    margin: auto;
+    margin: 1.5rem;
 }
 
 .hero .hero-heading {
