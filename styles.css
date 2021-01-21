@@ -27,8 +27,13 @@ hr {
 
 
 /*  */
-.padding-md{
-    padding: 1rem;
+.list-item{
+    padding: 2rem;
+}
+
+.list-item h1{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 
@@ -66,7 +71,7 @@ hr {
 
 .link-secondary-non-border{
     color: var(--primary-color);
-    
+    text-decoration: none;
 }
 
 /* lists */
