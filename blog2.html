@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hoisting | blog</title>
+
+        <link href="styles.css" rel="stylesheet">
+    </head>
+</head>
+
+<body>
+
+    <nav class="navigation">
+
+        <div class="nav-brand">iAmDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+
+        <h1 class="hero-heading">var and function hoisting in javaScript</h1>
+        <div class="container container-center">
+            <small><strong>December 11, 2021</strong></small>
+        </div>
+        
+
+    </header>
+
+    <div class= "container container-center">
+
+        
+        <p> Hoisting is a very popular concept in JavaScript, due to which we can access variables and funtions even before declaring them.
+
+        </p> 
+
+        <h3>But What is Hoisting?</h3>
+
+        <p>   
+            According to the definition of hoisting, <strong>" It is the JavaScript’s behaviour of moving declarations (functions and variable) to the top of their current scope"</strong>. So is it physically moved to the top of your code?  The answer is No.  JavaScript Engine doesn't move your code anywhere. It stays the way you typed it. Then, how hoisting is possible? The answer lies in the "Execution Context".
+        </p>
+
+        <h3>What is Execution Context?</h3>
+        <p>
+            Execution Context is an environment where JavaScript code runs. The code excution happens in two phases: Memory Phase, then Code Execution Phase.
+        </p>
+        <p>
+            In memory phase,  memory is allocated to var and functions even before executing a single line of code. It is also called Variable Environment. JavaScript Engine scans the code and stores vars and functions as key value pair in the variable environment. In key the function and var name is stored. But what is there in the value? Remember javascript only hoists the declarations not initializations, The actual value assigned is stored later in the code execution phase. So for vars a special keyword "undefined" is stored and for functions in the value the whole function is stored.
+        </p>
+
+        <p>
+            While code execution takes place and we try to access a var or function before declarations, it does not throw any error. Because the vars and functions have already been stored in the scope during the memory phase. And this is why it appears as if all the declarations are moved to the top.
+        </p>
+    </div>
+</body>
+
+</html>
